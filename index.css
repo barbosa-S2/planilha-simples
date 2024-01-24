@@ -1,0 +1,43 @@
+
+body{
+    background-color: rgb(255, 252, 254);
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+    cursor: pointer;
+}
+th {
+    background-color: rgb(255, 200, 227);
+}
+input[type="text"] {
+    width: 96%;
+    background-color: aqua;
+
+}
+#addRow, #saveData, #showData{
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+    display: flexbox;
+    margin-right: 70%;
+    background-color: green;
+}
+/*
+#saveData {
+    margin-top: 10px;
+    padding: 5px;
+    cursor: pointer;
+    display: flexbox;
+    margin-right: 70%;
+    background-color: green;
+}
+*/
